@@ -480,6 +480,21 @@ previously created based on categories. This dashboard only shows data from the 
                                                     </small>
                                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sql_danny_ma/15.png" alt="..." />
                                                     </p>
+                                                    
+                                                    <b><li>How many "breakout" days were there in 2020 where the price column is greater than the open  column for each ticker? In the same query also calculate the number of "non breakout" days where the price  column was lower than or equal to the open column.<br></li></b>
+                                                    <small>
+                                                        <code>
+                                                            SELECT ticker,<br>
+                                                            SUM(CASE WHEN price > open THEN 1 ELSE 0 END) AS breakout_days,<br>
+                                                            SUM(CASE WHEN price <= open THEN 1 ELSE 0 END) AS non_breakout_days<br>
+                                                            FROM trading.prices<br>
+                                                            WHERE market_date BETWEEN '2020-01-01' AND '2020-12-31'<br>
+                                                            GROUP BY ticker;<br>
+                                                        </code>                                                
+                                                    </small>
+                                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sql_danny_ma/15.png" alt="..." />
+                                                    </p>
+                                        
                                                
                                             
                             
