@@ -27,8 +27,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li> -->
                     </ul>
                 </div>
@@ -85,17 +85,17 @@
 
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <h5><center>Data visualization in Tableau</center></h5>
-
+                    <div class="col-md-6 col-lg-4">
+                        <h5><center>Helpdesk Dashboard</center></h5>
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/viz_tableau/0.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/sd_metrics/0.png" alt="..." />
+                            <center><mark>Google Data Studio</mark> | <mark>Google Sheets</mark></center>
                         </div>
-                        <center><mark>Tableau</mark></center>
                     </div>
+                   
                     <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <h5><center>Data visualization in Google Sheets</center></h5>
@@ -120,22 +120,25 @@
                     </div>
                     <!-- Portfolio Item 5-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <h5><center>Unicorn Companies Study</center></h5>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/unicorn_companies/0.png" alt="..." />
+                            <center><mark>SQL</mark></center>
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <h5><center>Data visualization in Tableau</center></h5>
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/viz_tableau/0.png" alt="..." />
                         </div>
+                        <center><mark>Tableau</mark></center>
                     </div>
                 </div>
             </div>
@@ -202,7 +205,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tableau Visualization</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Helpdesk Visualization</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -210,12 +213,22 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <h4>
-                                        ***Add some explanation of the code. Give context, think of what's the best way to showcase your projects..***
-                                        Check the Data Analysis Process here: https://www.notion.so/Data-Analysis-Process-f5b55a13564e42f28d213779c8022382
-                                        and show the project in that order.
-                                    </h4>          
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/viz_tableau/1.png" alt="..." />
+                                    <div style="text-align: justify">
+                                    <p>
+                                    The goal of this dashboard is to understand the whole operation of a Helpdesk department and find out what can be improved. Here are few questions that are revelant for the Helpdesk department:
+                                    <ol type="1">
+                                        <li>What's the application that users request the most?.</li>
+                                        <li>Which country makes most of the requests?.</li>
+                                        <li>What's the most active day of the week?.</li>  
+                                        <li>What's the busiest hour of the day?.</li>
+                                        <li>Is work balanced between support agents?.</li>
+                                        <li>Which department is creating most of the requests?.</li>
+                                        <li>Is it convenient to hire more agents to work the night shift?.</li>
+                                    </ol>
+
+                                    </p>  
+                                    </div>        
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sd_metrics/1.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -277,10 +290,12 @@ by pressing the '+' button as shown in the picture below.<br><br>
 <center><img class="img-fluid rounded mb-5" src="assets/img/portfolio/fin_pro/expenses_view.png" alt="..." />
 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/fin_pro/add_expenses.png" alt="..." /></center>
 4. As soon as a new expense is created, a new row is inserted in our dataset which allows us to create dashboards with charts updating in realtime.<br><br>
+<center>
 <video width="900" height="400" autoplay muted loop>
 <source src="/assets/vid/1_Portfolio.mov" type="video/mp4">
 Your browser does not support the video tag.
-</video><br><br>
+</video>
+</center><br><br>
 5. Here are two dashboards that I have created to monitor and track my expenses:<br><br>
 <ol type="a">
 <li>
@@ -492,9 +507,7 @@ previously created based on categories. This dashboard only shows data from the 
                                                     </small>
                                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sql_danny_ma/15.png" alt="..." />
                                                     </p>
-                                        
-                                               
-                                            
+                                    
                             
                                 </ol>
                                 </div>
@@ -570,11 +583,10 @@ previously created based on categories. This dashboard only shows data from the 
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                        <iframe src="https://app.datacamp.com/workspace/w/9ac375ee-eb10-4155-a324-2f352b9db389/edit" title="description"></iframe>
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/viz_tableau/1.png" alt="..." />
 
-                                    
+                                
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
